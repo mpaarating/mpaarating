@@ -1,10 +1,10 @@
 {
-  "name": "@mpaarating/card",
-  "version": "1.1.0",
+  "name": "mpaarating",
+  "version": "1.2.0",
   "description": "A personal card for Alex Lewis (@mpaarating)",
   "main": "/bin/card.js",
   "bin": {
-    "bitandbang": "./bin/card.js"
+    "mpaarating": "./bin/card.js"
   },
   "repository": {
     "type": "git",
@@ -41,6 +41,6 @@
   },
   "dependencies": {},
   "publishConfig": {
-    "registry": "https://npm.registry.github.com/"
+    "registry": "https://registry.npmjs.org"
   }
 }
