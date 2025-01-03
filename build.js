@@ -17,15 +17,15 @@ const options = {
 const data = {
   name: chalk.cyan('               Alex Lewis'),
   handle: chalk.white('mpaarating'),
-  work: chalk.white('Senior Software Engineer at Outreach'),
-  twitter: chalk.green('https://twitter.com/') + chalk.cyan('mpaarating'),
+  work: chalk.white('Senior Software Engineer at Your Money Line'),
+  blueSky: chalk.green('https://bsky.app/profile/') + chalk.cyan('alexmlewis.com'),
   npm: chalk.green('https://npmjs.com/') + chalk.red('~mpaarating'),
   github: chalk.green('https://github.com/') + chalk.yellow('mpaarating'),
   linkedin: chalk.green('https://linkedin.com/in/') + chalk.blue('alex-lewis-2157759b/'),
   web: chalk.cyan('https://blog.alexmlewis.com'),
   npx: chalk.blueBright('npx') + ' ' + chalk.white('mpaarating'),
   labelWork: chalk.white.bold('       Work:'),
-  labelTwitter: chalk.white.bold('    Twitter:'),
+  labelBlueSky: chalk.white.bold('    BlueSky:'),
   labelnpm: chalk.white.bold('        npm:'),
   labelGitHub: chalk.white.bold('     GitHub:'),
   labelLinkedIn: chalk.white.bold('   LinkedIn:'),
@@ -37,7 +37,7 @@ const data = {
 const newline = '\n'
 const heading = `${data.name} / ${data.handle}`
 const working = `${data.labelWork}  ${data.work}`
-const twittering = `${data.labelTwitter}  ${data.twitter}`
+const blueskying = `${data.labelBlueSky}  ${data.blueSky}`
 const npming = `${data.labelnpm}  ${data.npm}`
 const githubing = `${data.labelGitHub}  ${data.github}`
 const linkedining = `${data.labelLinkedIn}  ${data.linkedin}`
@@ -48,7 +48,7 @@ const carding = `${data.labelCard}  ${data.npx}`
 const output = heading + // data.name + data.handle
   newline + newline + // Add one whole blank line
   working + newline + // data.labelWork + data.work
-  twittering + newline + // data.labelTwitter + data.twitter
+  blueskying + newline + // data.labelBlueSky + data.blueSky
   npming + newline + // data.labelnpm + data.npm
   githubing + newline + // data.labelGitHub + data.github
   linkedining + newline + // data.labelLinkedIn + data.linkedin
