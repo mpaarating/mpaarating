@@ -1,6 +1,6 @@
 {
   "name": "mpaarating",
-  "version": "1.4.1",
+  "version": "2.0.0",
   "description": "A personal card for Alex Lewis (@mpaarating)",
   "main": "/bin/card.js",
   "bin": {
