@@ -17,7 +17,7 @@ const options = {
 const data = {
   name: chalk.cyan('               Alex Lewis'),
   handle: chalk.white('mpaarating'),
-  work: chalk.white('Senior Software Engineer at Your Money Line'),
+  work: chalk.white('Senior Software Engineer at Zapier'),
   blueSky: chalk.green('https://bsky.app/profile/') + chalk.cyan('alexmlewis.com'),
   npm: chalk.green('https://npmjs.com/') + chalk.red('~mpaarating'),
   github: chalk.green('https://github.com/') + chalk.yellow('mpaarating'),
